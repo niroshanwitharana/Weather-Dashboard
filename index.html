@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://kit.fontawesome.com/121d011066.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- this is the nav bar for weather dashboard-->
+    <div class="pt-2 pb-2 navbar navbar-light navTitle">
+        <div class="container navDiv">
+            <h1 class="text-center navClass">Weather Dashboard</h1>
+        </div>
+    </div>
+    <!-- this is main div-->
+    <div class="container-fluid mainClass">
+        <!--this is a row inside the body everything goes here-->
+        <div class="row">
+
+            <!-- everything aside in the left adding to this container-->
+            <div class="col-md-3 bg-light pt-3 pb-3">
+                <!--header for search area-->
+                <h5>Search for a city:</h5>
+
+                <!-- this is the search area-->
+                <div class="input-group mb-3">
+                    <input id="searchArea" type="text" class="form-control" placeholder="City name..."
+                        class="input-group-append">
+
+                    <!--this is the submit button-->
+                    <button id="searchBtn" class="btn btn-primary" type="button"><i class="far fa-search"></i></button>
+                </div>
+
+
+                <!-- this card will use to add list of searched cities-->
+                <div class="card">
+                    <ul class="list-group list-group-flush list cityButton">
+
+                    </ul>
+                </div>
+
+            </div>
+            <!--main is inside this div-->
+            <div class="col-lg-9 mainDiv">.
+                <!-- current weather Forecast go here -->
+                <div class="card-body col-lg-8 currentWeather">
+
+
+                </div>
+
+                <!-- netx 5days weather forecast adding to cards and add in to row -->
+                <div class="mt-4 col-lg-9 cardDiv">
+
+                    <!-- header for next 5 days forcast-->
+                    <h5 class="h5Tag"></h5>
+
+                    <!-- list of cards go here -->
+
+                    <div id="futureForecast" class="row">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <footer id="footer" class="navbar-fixed-bottom">
+        <p id="p-footer" class="navbar-fixed-bottom">Copyright &copy; NW</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+
+</html>

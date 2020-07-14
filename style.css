@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mainDiv{
+    max-width: inherit;
+}
+.cardDiv{
+  float: left;
+  width: 20%;
+  padding: 5px 5px 0px 0px;
+  display: contents
+}
+.mainClass{
+    max-height: 100%;
+}
+
+.navTitle{
+    background: rgba(121, 187, 241, 0.973);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.navDiv{
+    flex-direction: column;
+}
+
+.futureWeather{
+max-width: 100%;
+min-width: max-content;
+}
+.text{
+ font-size: 12px;
+ font: menu;
+ min-width: max-content;
+}
+
+.futureForecast{
+    margin: auto;
+    padding: 0px;
+    font: small-caption;
+}
+.cardList{
+    box-shadow: 0 4px 10px 0 rgba(32, 34, 170, 0.2);
+    background: #67b2ea !important;
+}
+.bg-primary {
+    background-color: #007bff!important;
+}
+
+.green{
+    background-color: green;
+    color: white;
+
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.purple{
+    background-color: purple;
+    color: white;
+}
+
+#footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(121, 187, 241, 0.973);
+   color: white;
+   text-align: center;
+   
+}
+#p-footer{
+    margin-bottom: 0px !important;
+}
